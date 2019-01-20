@@ -1,0 +1,41 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+		"eslint:recommended",
+		"prettier",
+		"p5js",
+                "p5js/dom"
+	],
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+	"plugins": [
+		"prettier"
+	],
+    "rules": {
+        "indent": [
+            0,
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "warn",
+            "always"
+        ],
+	"no-console": [
+            1
+    	],
+        "prettier/prettier": "error"
+	}
+}

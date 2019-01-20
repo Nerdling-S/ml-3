@@ -1,0 +1,22 @@
+{
+  "name": "p5-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "sketch.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-p5js": "^1.0.1",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.15.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
